@@ -40,9 +40,9 @@ android {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.ronil-gwalani"
-            artifactId = "customSnackBar"
-            version = "1.0.04"
+//            groupId = "com.ronil-gwalani"
+//            artifactId = "customSnackBar"
+//            version = "1.0.04"
             artifact("${buildDir}/outputs/aar/customSnackBar-release.aar")
         }
     }
